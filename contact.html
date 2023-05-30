@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <script src="js/contact.js" defer></script>
+</head>
+
+<body>
+    <header class="redressed">
+        <div class="logo"><img class="icon car-icon" src="images/car.svg" alt=""> &nbsp JU Car Rental</div>
+        <nav class="nav-bar">
+            <input type="checkbox" id="check">
+            <label for="check" class="check-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="menu">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"><a href="listerParPrix.html">List by price</a></li>
+                <li class="menu-item"><a href="reservation.html">Reservation</a></li>
+                <li class="menu-item"><a href="modele.html">List by model</a></li>
+                <li class="menu-item"><a href="loisir.html">Leisure</a></li>
+                <li class="menu-item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="section-form">
+        <form class="form" action="" method="post" id="contact-form">
+        <h2>Contact us</h2>
+        <div class="form-group">
+            <label for="nom">Name:</label>
+            <input type="text" name="nom" id="nom">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">Send</button>
+        </form>
+    </div>
+    
+</body>
+    
+</html>

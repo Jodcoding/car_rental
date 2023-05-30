@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <script src="https://kit.fontawesome.com/63a1fd6f20.js" crossorigin="anonymous" defer></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo redressed"><img class="icon car-icon" src="images/car.svg" alt=""> &nbsp JU Car Rental</div>
+        <nav class="nav-bar">
+            <input type="checkbox" id="check">
+            <label for="check" class="check-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="menu redressed">
+                <li class="menu-item"><a href="">Home</a></li>
+                <li class="menu-item"><a href="listerParPrix.html">list by price</a></li>
+                <li class="menu-item"><a href="reservation.html">Reservation</a></li>
+                <li class="menu-item"><a href="modele.html">List by model</a></li>
+                <li class="menu-item"><a href="loisir.html">Leisure</a></li>
+                <li class="menu-item"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="section accueil" id="accueil">
+        <div class="welcome-text redressed">
+            <p>Welcome to JU Car Rental! Whether you're planning a business trip, a family vacation, or a spontaneous getaway, our team is here to provide you with a hassle-free car rental experience. We offer a wide selection of quality vehicles, competitive rates, and exceptional customer service. Book now and get ready to explore with freedom at JU Car Rental.</p>
+            <button src="#cars" class="btn see-more-btn redressed">See more +</button>
+        </div>
+    </div>
+    <div class="text redressed">
+        <h2>Some of our cars</h2>
+    </div>
+    <div class="section cars" id="cars">
+        <div class="car-card bmw" data-type-car="bmw" data-price="$100">
+            <div class="card-image"><img src="images/BMW/bmw-7.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$100</div>
+                <div class="model">
+                    <p>BMW Serie 3</p>
+                    <p>Listed by: Venis Darren</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>15km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Diesel</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="bmw" data-price="$200">
+            <div class="card-image"><img src="images/BMW/bmw-2.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$200</div>
+                <div class="model">
+                    <p>BMW Serie 5</p>
+                    <p>Listed by: Darwens Jean</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>18km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Diesel</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>6</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="bmw" data-price="$200">
+            <div class="card-image"><img src="images/BMW/bmw-13.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$200</div>
+                <div class="model">
+                    <p>BMW Serie 7</p>
+                    <p>Listed by: Venis Darren</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>16km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Gasoline</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>2</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+
+        <div class="car-card" data-type-car="mercedes" data-price="$100">
+            <div class="card-image"><img src="images/Mercedes/mercedes-8.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$100</div>
+                <div class="model">
+                    <p>Mercedes Benz G-Class</p>
+                    <p>Listed by: Sophia Smith</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>20km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Gasoline</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="mercedes" data-price="$200">
+            <div class="card-image"><img src="images/Mercedes/mercedes-9.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$200</div>
+                <div class="model">
+                    <p>Mercedez Benz</p>
+                    <p>Listed by: Ethan Anderson</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>13km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="mercedes" data-price="$1000">
+            <div class="card-image"><img src="images/Mercedes/mercedes-3.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$1000</div>
+                <div class="model">
+                    <p>Mercedez Benz A-Class</p>
+                    <p>Listed by: Olivia Devis</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>12km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Diesel</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+
+        <div class="car-card" data-type-car="subaru" data-price="$300">
+            <div class="card-image"><img src="images/Subaru/subaru-3.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$300</div>
+                <div class="model">
+                    <p>Subaru Forester</p>
+                    <p>Listed by: James Forest</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>14km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>5</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <!-- TESLA -->
+        <div class="car-card" data-type-car="tesla" data-price="$400">
+            <div class="card-image"><img src="images/Tesla/tesla-1.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$400</div>
+                <div class="model">
+                    <p>Tesla Model S</p>
+                    <p>Listed by: James Brown</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>25km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="tesla" data-price="$200">
+            <div class="card-image"><img src="images/Tesla/tesla-2.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$200</div>
+                <div class="model">
+                    <p>Tesla Model 3</p>
+                    <p>Listed by: Peter Walker</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>10km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>5</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer redressed">
+        <div class="arrow-up"><a href="#accueil"><img src="images/arrow-up.svg" alt=""></a></div>
+        <div class="links">
+            <h3>Useful links:</h3>
+            <ul class="useful-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="listerParPrix.html">List by price</a></li>
+                <li><a href="reservation.html">Reservation</i></a></li>
+                <li><a href="modele.html">List by model</i></a></li>
+                <li><a href="loisir.html">Leisure</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="telephones">
+            <h4>JU Car Rental</h4>
+            <p> <i class="fas fa-map-marker-alt location-icon"></i>123 Rte de Frères, Pétion-Ville, Haïti</p>
+            <p>&copy;JU Inc 2023</p>
+        </div>
+        <div class="contact">
+            <h3>Contact:</h3>
+            <p><i class="fas fa-phone"></i>+509 4925-6762</p>
+            <p><i class="fas fa-phone"></i>+509 4352-2112</p>
+            <ul class="social-media">
+                <li><a href="#"> <i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"> <i class="fas fa-envelope"></i></a></i></li>
+                <li><a href="#"> <i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"> <i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

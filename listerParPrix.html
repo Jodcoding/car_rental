@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modeles</title>
+    <link rel="stylesheet" href="./css/modele.css">
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <header class="redressed">
+        <div class="logo"><img class="icon car-icon" src="images/car.svg" alt=""> &nbsp JU Car Rental
+        </div>
+        <nav class="nav-bar">
+            <input type="checkbox" id="check">
+            <label for="check" class="check-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="menu">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"><a href="#">List by price</a></li>
+                <li class="menu-item"><a href="reservation.html">Reservation</a></li>
+                <li class="menu-item"><a href="modele.html">List by model</a></li>
+                <li class="menu-item"><a href="loisir.html">Leisure</a></li>
+                <li class="menu-item"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="text redressed">
+        <h2>List by price</h2>
+    </div>
+    <div class="search-buttons">
+        <button class="btn" data-filter="all">All</button>
+        <button class="btn btn-price" data-filter="$100">
+            <p>$100</p>
+        </button>
+        <button class="btn btn-price" data-filter="$200">
+            <p>$200</p>
+        </button>
+        <button class="btn btn-price" data-filter="$300">
+            <p>$300</p>
+        </button>
+        <button class="btn btn-price" data-filter="$400">
+            <p>$400</p>
+        </button>
+        <button class="btn btn-price" data-filter="$800">
+            <p>$800</p>
+        </button>
+        <button class="btn btn-price" data-filter="$1000">
+            <p>$1000</p>
+        </button>
+    </div>
+    <!-- bmw -->
+    <div class="section cars" id="cars">
+        <div class="car-card bmw" data-type-car="bmw" data-price="$100">
+            <div class="card-image"><img src="images/BMW/bmw-7.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$100</div>
+                <div class="model">
+                    <p>BMW Serie 3</p>
+                    <p>Listed by: Venis Darren</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>15km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Diesel</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="bmw" data-price="$200">
+            <div class="card-image"><img src="images/BMW/bmw-2.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$200</div>
+                <div class="model">
+                    <p>BMW Serie 5</p>
+                    <p>Listed by: Darwens Jean</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>18km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Diesel</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>6</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="bmw" data-price="$200">
+            <div class="card-image"><img src="images/BMW/bmw-13.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$200</div>
+                <div class="model">
+                    <p>BMW Serie 7</p>
+                    <p>Listed by: Venis Darren</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>16km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Gasoline</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>2</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="bmw" data-price="$400">
+            <div class="card-image"><img src="images/BMW/bmw-8.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$400</div>
+                <div class="model">
+                    <p>BMW X1</p>
+                    <p>Listed by: Pablo Juan</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>14km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Diesel</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>2</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="bmw" data-price="$800">
+            <div class="card-image"><img src="images/BMW/bmw-9.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$800</div>
+                <div class="model">
+                    <p>BMW X3</p>
+                    <p>Listed by: Emma Johnson</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>12km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Diesel</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>5</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="bmw" data-price="$300">
+            <div class="card-image"><img src="images/BMW/bmw-10.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$300</div>
+                <div class="model">
+                    <p>BMW X5</p>
+                    <p>Listed by: Venis Darren</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>16km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Gasoline</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>5</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+
+        <div class="car-card bmw" data-type-car="bmw" data-price="$1000">
+            <div class="card-image"><img src="images/BMW/bmw-7.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$1000</div>
+                <div class="model">
+                    <p>BMW X6</p>
+                    <p>Listed by: Lucas Martinez</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>18km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Gasoline</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>5</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <!-- MERCEDES -->
+        <div class="car-card" data-type-car="mercedes" data-price="$100">
+            <div class="card-image"><img src="images/Mercedes/mercedes-8.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$100</div>
+                <div class="model">
+                    <p>Mercedes Benz G-Class</p>
+                    <p>Listed by: Sophia Smith</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>20km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Gasoline</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="mercedes" data-price="$200">
+            <div class="card-image"><img src="images/Mercedes/mercedes-17.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$200</div>
+                <div class="model">
+                    <p>Mercedez Benz</p>
+                    <p>Listed by: Ethan Anderson</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>13km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="mercedes" data-price="$1000">
+            <div class="card-image"><img src="images/Mercedes/mercedes-9.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$1000</div>
+                <div class="model">
+                    <p>Mercedez Benz A-Class</p>
+                    <p>Listed by: Olivia Devis</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>12km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Diesel</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="mercedes" data-price="$300">
+            <div class="card-image"><img src="images/Mercedes/mercedes-13.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$300</div>
+                <div class="model">
+                    <p>Mercedez Benz C-Class</p>
+                    <p>Listed by: Ben Davis</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>14km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Gasoline</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>5</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="mercedes" data-price="$800">
+            <div class="card-image"><img src="images/Mercedes/mercedes-6.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$800</div>
+                <div class="model">
+                    <p>Mercedez Benz</p>
+                    <p>Listed by: Noah Thompson</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>12km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="mercedes" data-price="$800">
+            <div class="card-image"><img src="images/Mercedes/mercedes-7.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$800</div>
+                <div class="model">
+                    <p>Mercedez Benz S-Class</p>
+                    <p>Listed by: Ava Wilson</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>10km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+
+        <div class="car-card bmw" data-type-car="mercedes" data-price="$200">
+            <div class="card-image"><img src="images/Mercedes/mercedes-8.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$200</div>
+                <div class="model">
+                    <p>Mercedez Benz S-Class</p>
+                    <p>Listed by: Liam Brown</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>12km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Diesel</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <!-- LAMBORGHINI -->
+        <div class="car-card" data-type-car="lamborghini" data-price="$800">
+            <div class="card-image"><img src="images/Lamborghini/lamborghini-1.png" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$800</div>
+                <div class="model">
+                    <p>Lamborghini Aventador</p>
+                    <p>Listed by: Venis Darren</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>25km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>2</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="lamborghini" data-price="$400">
+            <div class="card-image"><img src="images/Lamborghini/lamborghini-2.png" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$400</div>
+                <div class="model">
+                    <p>Lamborghini Huracan</p>
+                    <p>Listed by: Olivia Davis</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>30km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>5</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="lamborghini" data-price="$200">
+            <div class="card-image"><img src="images/Lamborghini/lamborghini-4.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$200</div>
+                <div class="model">
+                    <p>Lamborghini Urus</p>
+                    <p>Listed by: Isabella Taylor</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>25km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="lamborghini" data-price="$300">
+            <div class="card-image"><img src="images/Lamborghini/lamborghini-5.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$300</div>
+                <div class="model">
+                    <p>Lamborghini Urus</p>
+                    <p>Listed by: Mason Miller</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>30km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>3</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <!-- SUBARU -->
+        <div class="car-card" data-type-car="subaru" data-price="$200">
+            <div class="card-image"><img src="images/Subaru/subaru-1.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$200</div>
+                <div class="model">
+                    <p>Subaru Impreza</p>
+                    <p>Listed by: Isabella Taylor</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>14km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>6</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="subaru" data-price="$200">
+            <div class="card-image"><img src="images/Subaru/subaru-2.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$200</div>
+                <div class="model">
+                    <p>Subaru Outback</p>
+                    <p>Listed by: Liam Payne</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>12km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="subaru" data-price="$300">
+            <div class="card-image"><img src="images/Subaru/subaru-3.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$300</div>
+                <div class="model">
+                    <p>Subaru Forester</p>
+                    <p>Listed by: James Forest</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>14km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>5</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <!-- TESLA -->
+        <div class="car-card" data-type-car="tesla" data-price="$400">
+            <div class="card-image"><img src="images/Tesla/tesla-1.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$400</div>
+                <div class="model">
+                    <p>Tesla Model S</p>
+                    <p>Listed by: James Brown</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>25km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="tesla" data-price="$200">
+            <div class="card-image"><img src="images/Tesla/tesla-2.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$200</div>
+                <div class="model">
+                    <p>Tesla Model 3</p>
+                    <p>Listed by: Peter Walker</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>10km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>5</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="tesla" data-price="$400">
+            <div class="card-image"><img src="images/Tesla/tesla-3.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$400</div>
+                <div class="model">
+                    <p>Tesla Model X</p>
+                    <p>Listed by: Adama Vinsey</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>13km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="tesla" data-price="$800">
+            <div class="card-image"><img src="images/Tesla/tesla-4.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$800</div>
+                <div class="model">
+                    <p>Tesla Model Y</p>
+                    <p>Listed by: Paul Junior</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>18km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>6</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="tesla" data-price="$1000">
+            <div class="card-image"><img src="images/Tesla/tesla-5.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$1000</div>
+                <div class="model">
+                    <p>Tesla Roadster</p>
+                    <p>Listed by: James Maddison</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>18km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="tesla" data-price="$800">
+            <div class="card-image"><img src="images/Tesla/tesla-6.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$800</div>
+                <div class="model">
+                    <p>Tesla Semi</p>
+                    <p>Listed by: Ismaela Sar</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>19km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+
+        <!-- RANGE-ROVER -->
+        <div class="car-card" data-type-car="range-rover" data-price="$400">
+            <div class="card-image"><img src="images/Range-Rover/range-rover-2.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$400</div>
+                <div class="model">
+                    <p>Range Rover Evoque</p>
+                    <p>Listed by: Benjamin Turner</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>15km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>6</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="range-rover" data-price="$800">
+            <div class="card-image"><img src="images/Range-Rover/range-rover-3.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$800</div>
+                <div class="model">
+                    <p>Range Rover Velar</p>
+                    <p>Listed by: Isabella Mitchell</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>18km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="range-rover" data-price="$200">
+            <div class="card-image"><img src="images/Range-Rover/range-rover-4.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$200</div>
+                <div class="model">
+                    <p>Range Rover Sport</p>
+                    <p>Listed by: Steeve Brown</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>16km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="range-rover" data-price="$300">
+            <div class="card-image"><img src="images/Range-Rover/range-rover-5.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$300</div>
+                <div class="model">
+                    <p>Range Rover Vogue</p>
+                    <p>Listed by: Mia Wilson</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>17km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>8</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="range-rover" data-price="$1000">
+            <div class="card-image"><img src="images/Range-Rover/range-rover-6.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$1000</div>
+                <div class="model">
+                    <p>Range Rover</p>
+                    <p>Listed by: Noah Roberts</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>18km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>5</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="range-rover" data-price="$300">
+            <div class="card-image"><img src="images/Range-Rover/range-rover-7.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$300</div>
+                <div class="model">
+                    <p>Range Rover Hybrid</p>
+                    <p>Listed by: Ana Ramirez</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>15km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>4</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+        <div class="car-card" data-type-car="range-rover" data-price="$400">
+            <div class="card-image"><img src="images/Range-Rover/range-rover-8.jpg" alt=""></div>
+            <div class="card-footer">
+                <div class="price">$400</div>
+                <div class="model">
+                    <p>Range Rover</p>
+                    <p>Listed by: Mia Wilson</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="images/gauge.svg" alt="">
+                            <p>14km</p>
+                        </td>
+                        <td><img class="icon" src="images/gas-pump.svg" alt="">
+                            <p>Petrol</p>
+                        </td>
+                        <td><img class="icon" src="images/car-seat.png" alt="">
+                            <p>6</p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="rent" type="submit">Book now</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

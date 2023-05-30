@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <script src="js/reservation.js" defer></script>
+</head>
+
+<body>
+    <header class="redressed">
+        <div class="logo"><img class="icon car-icon" src="images/car.svg" alt=""> &nbsp JU Car Rental</div>
+        <nav class="nav-bar">
+            <input type="checkbox" id="check">
+            <label for="check" class="check-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="menu">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"><a href="listerParPrix.html">List by price</a></li>
+                <li class="menu-item"><a href="#">Reservation</a></li>
+                <li class="menu-item"><a href="modele.html">List by model</a></li>
+                <li class="menu-item"><a href="loisir.html">Leisure</a></li>
+                <li class="menu-item"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <div class="container"> -->
+        <div class="section-form">
+            <form class="form" action="" method="post" id="reservation-form">
+                <h2>Book your car</h2>
+                <div class="form-group">
+                    <label for="nom">Nom:</label>
+                    <input type="text" name="nom" id="nom">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="model">Model:</label>
+                    <select name="modele">
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="Mercedes">BMW</option>
+                        <option value="Mercedes">Lexus</option>
+                        <option value="Mercedes">Subaru</option>
+                        <option value="Mercedes">Tesla</option>
+                        <option value="Mercedes">Lamborghini</option>
+                        <option value="Mercedes">Range Rover</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date:</label>
+                    <input type="date" name="date-location" id="date-location">
+                </div>
+                <div class="form-group">
+                    <label for="qte-jours">Number of days:</label>
+                    <input type="number" name="qte-jours" id="qte-jours">
+                </div>
+                <button type="submit">Send</button>
+                </form>
+        </div>
+    <!-- </div> -->
+</body>
+
+</html>
