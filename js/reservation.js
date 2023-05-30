@@ -9,10 +9,10 @@ reservationForm.addEventListener('submit', e =>{
     
     if((name == null || name == '') ||(email == null || email == '') || (model == null || model == '') || 
     (reservation_date == null || reservation_date == '') || (number_of_days == null || number_of_days == '')){
-        alert('Veuillez remplir tous les champs!')
+        alert('Please, fill all the fields!')
     }
     else{
-        alert('Reservation reussie, '+name+'!')
+        alert('Successfull, '+name+'!')
         reservationForm.reset();
     }  
 })

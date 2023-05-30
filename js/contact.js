@@ -8,9 +8,9 @@ contactForm.addEventListener('submit', e =>{
     const message = new FormData(contactForm).get('message')
 
     if((name == null || name == '') ||(email == null || email == '') || (message == null || message == ''))
-        alert('Veuillez remplir tous les champs!')
+        alert('please, fill the all fields!')
     else{
-        alert('Message envoye avec succes!')
+        alert('Message sent successfully!')
         contactForm.reset();
     }  
 })
